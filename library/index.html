@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Library – Kiribati National Library and Archives</title>
+  <meta name="description" content="Search the Kiribati National Library catalogue, opening hours, borrowing rules, fees, membership and other resources.">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../">Kiribati National Library and Archives<small>Ministry of Education</small></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../">Home</a>
+        <a href="./" aria-current="page">Library</a>
+        <a href="../archives/">Archives</a>
+        <a href="../#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero small">
+    <div class="wrap">
+      <h1>National Library</h1>
+      <p>Books, reports and Pacific collections for students, researchers and the public.</p>
+    </div>
+  </div>
+
+  <nav class="subnav" aria-label="On this page">
+    <div class="wrap">
+      <a href="#catalogue">Catalogue</a>
+      <a href="#visit">Hours, rules &amp; fees</a>
+      <a href="#membership">Membership</a>
+      <a href="#resources">Other resources</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- CATALOGUE / OPAC -->
+    <section id="catalogue">
+      <div class="wrap" id="catalogue-search">
+        <h2>Search the catalogue</h2>
+        <p class="lead">Search by title, author, subject or call number. Use the ☆ button to bookmark items; bookmarks are saved on this device.</p>
+        <div class="search-bar">
+          <input type="search" data-search placeholder="Search title, author, subject…" aria-label="Search the library catalogue">
+          <select data-filter aria-label="Filter by subject"></select>
+          <label class="check"><input type="checkbox" data-only-bookmarks> My bookmarks only</label>
+        </div>
+        <p class="result-count" data-count></p>
+        <div class="results" data-results></div>
+      </div>
+    </section>
+
+    <!-- ADMIN: HOURS, RULES, FEES -->
+    <section id="visit">
+      <div class="wrap">
+        <h2>Opening hours, rules and fees</h2>
+        <div class="grid two">
+          <div class="card">
+            <h3>Opening hours</h3>
+            <p><span class="edit">[EDIT]</span> Monday – Friday: 8:00 am – 4:15 pm<br>
+               <span class="edit">[EDIT]</span> Closed on weekends and public holidays</p>
+          </div>
+          <div class="card">
+            <h3>Library rules</h3>
+            <ul>
+              <li><span class="edit">[EDIT]</span> Members may borrow up to 3 items at a time.</li>
+              <li><span class="edit">[EDIT]</span> Loan period is 2 weeks; items can be renewed once.</li>
+              <li><span class="edit">[EDIT]</span> Reference and rare items may not leave the library.</li>
+              <li><span class="edit">[EDIT]</span> Please keep noise low and no food near the collections.</li>
+            </ul>
+          </div>
+        </div>
+        <h3 style="margin-top:24px">Fees</h3>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>Item</th><th>Fee (AUD)</th><th>Notes</th></tr></thead>
+            <tbody>
+              <tr><td>Adult membership (1 year)</td><td><span class="edit">[EDIT]</span></td><td></td></tr>
+              <tr><td>Student membership (1 year)</td><td><span class="edit">[EDIT]</span></td><td>Student ID required</td></tr>
+              <tr><td>Late return (per item, per day)</td><td><span class="edit">[EDIT]</span></td><td></td></tr>
+              <tr><td>Photocopying / printing (per page)</td><td><span class="edit">[EDIT]</span></td><td></td></tr>
+              <tr><td>Lost or damaged item</td><td><span class="edit">[EDIT]</span></td><td>Replacement cost</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBERSHIP FORM (stage 3) -->
+    <section id="membership">
+      <div class="wrap">
+        <h2>Membership</h2>
+        <div class="card">
+          <p>Become a member to borrow books. The process:</p>
+          <ol>
+            <li>Fill in the membership form.</li>
+            <li>Pay the membership fee.</li>
+            <li>Receive your receipt by email.</li>
+            <li>Your membership is approved and you can start borrowing.</li>
+          </ol>
+          <p class="notice">Online membership applications are coming soon. For now, please apply in person at the library counter.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OTHER RESOURCES -->
+    <section id="resources">
+      <div class="wrap">
+        <h2>Other resources</h2>
+        <div class="grid three">
+          <div class="card">
+            <h3>Search engines &amp; databases</h3>
+            <ul>
+              <li><a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a></li>
+              <li><a href="https://www.worldcat.org" target="_blank" rel="noopener">WorldCat</a></li>
+              <li><a href="https://doaj.org" target="_blank" rel="noopener">Directory of Open Access Journals</a></li>
+              <li><span class="edit">[EDIT]</span> Add more</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Partner libraries</h3>
+            <ul>
+              <li><span class="edit">[EDIT]</span> USP Kiribati Campus Library</li>
+              <li><span class="edit">[EDIT]</span> Partner library name and link</li>
+              <li><span class="edit">[EDIT]</span> Partner library name and link</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Library apps</h3>
+            <ul>
+              <li><span class="edit">[EDIT]</span> E-book or reading app name and link</li>
+              <li><span class="edit">[EDIT]</span> Children's reading app</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© Kiribati National Library and Archives, Ministry of Education</span>
+      <span><a href="../">Home</a> · <a href="../archives/">Archives</a></span>
+    </div>
+  </footer>
+
+  <script src="../assets/config.js"></script>
+  <script src="../assets/search.js"></script>
+  <script>
+    KNLA.initSearch({
+      root: document.getElementById("catalogue-search"),
+      table: "Catalogue",
+      fallback: "../data/catalogue.json",
+      idField: "ID",
+      searchFields: ["Title", "Author", "Subject", "CallNumber", "Year", "Type"],
+      filterField: "Subject",
+      filterLabel: "subjects",
+      bookmarkKey: "knla-library-bookmarks",
+      renderItem: function (r, h) {
+        var available = String(r.Status).toLowerCase() === "available";
+        var url = h.safeUrl(r.OnlineCopy);
+        var marked = h.isBookmarked(r.ID);
+        return '<article class="result">' +
+          '<h3>' + h.esc(r.Title) + '</h3>' +
+          '<span class="badge ' + (available ? "ok" : "warn") + '">' + h.esc(r.Status) + '</span>' +
+          '<div class="meta">' + h.esc(r.Author) + (r.Year ? " · " + h.esc(r.Year) : "") +
+            " · " + h.esc(r.Type) + " · Call no. " + h.esc(r.CallNumber) + '</div>' +
+          '<div class="actions">' +
+            '<span class="meta">Subject: ' + h.esc(r.Subject) + '</span>' +
+            (url ? '<a href="' + h.esc(url) + '" target="_blank" rel="noopener">Read online copy</a>' : "") +
+            '<button class="btn-link" data-bookmark="' + h.esc(r.ID) + '" aria-pressed="' + marked + '">' +
+              (marked ? "★ Bookmarked" : "☆ Bookmark") + '</button>' +
+          '</div>' +
+        '</article>';
+      }
+    });
+  </script>
+</body>
+</html>

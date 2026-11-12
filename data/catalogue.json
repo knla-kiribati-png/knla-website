@@ -1,0 +1,134 @@
+[
+  {
+    "ID": "L0001",
+    "Title": "SAMPLE – Traditional Navigation of the Gilbert Islands",
+    "Author": "Sample Author A",
+    "Year": "1998",
+    "Subject": "Culture & Heritage",
+    "Type": "Book",
+    "CallNumber": "994.1 SAM",
+    "Status": "Available",
+    "OnlineCopy": ""
+  },
+  {
+    "ID": "L0002",
+    "Title": "SAMPLE – Introduction to Te-Kiribati Grammar",
+    "Author": "Sample Author B",
+    "Year": "2005",
+    "Subject": "Language",
+    "Type": "Book",
+    "CallNumber": "499.5 SAM",
+    "Status": "On loan",
+    "OnlineCopy": ""
+  },
+  {
+    "ID": "L0003",
+    "Title": "SAMPLE – Climate Change and Atoll Nations",
+    "Author": "Sample Author C",
+    "Year": "2019",
+    "Subject": "Environment",
+    "Type": "Report",
+    "CallNumber": "551.6 SAM",
+    "Status": "Available",
+    "OnlineCopy": "https://example.org/sample-report.pdf"
+  },
+  {
+    "ID": "L0004",
+    "Title": "SAMPLE – Fisheries of the Central Pacific",
+    "Author": "Sample Author D",
+    "Year": "2012",
+    "Subject": "Fisheries",
+    "Type": "Book",
+    "CallNumber": "639.2 SAM",
+    "Status": "Available",
+    "OnlineCopy": ""
+  },
+  {
+    "ID": "L0005",
+    "Title": "SAMPLE – Kiribati Education Statistics Digest",
+    "Author": "Ministry of Education (sample)",
+    "Year": "2023",
+    "Subject": "Education",
+    "Type": "Report",
+    "CallNumber": "370.9 SAM",
+    "Status": "Available",
+    "OnlineCopy": "https://example.org/sample-digest.pdf"
+  },
+  {
+    "ID": "L0006",
+    "Title": "SAMPLE – Children's Stories from the Islands",
+    "Author": "Sample Author E",
+    "Year": "2015",
+    "Subject": "Children",
+    "Type": "Book",
+    "CallNumber": "J 398 SAM",
+    "Status": "Available",
+    "OnlineCopy": ""
+  },
+  {
+    "ID": "L0007",
+    "Title": "SAMPLE – History of Tarawa",
+    "Author": "Sample Author F",
+    "Year": "1989",
+    "Subject": "History",
+    "Type": "Book",
+    "CallNumber": "996.81 SAM",
+    "Status": "On loan",
+    "OnlineCopy": ""
+  },
+  {
+    "ID": "L0008",
+    "Title": "SAMPLE – Coconut and Pandanus: Food Crops of the Atolls",
+    "Author": "Sample Author G",
+    "Year": "2001",
+    "Subject": "Agriculture",
+    "Type": "Book",
+    "CallNumber": "634.6 SAM",
+    "Status": "Available",
+    "OnlineCopy": ""
+  },
+  {
+    "ID": "L0009",
+    "Title": "SAMPLE – Pacific Health Bulletin",
+    "Author": "Sample Publisher",
+    "Year": "2021",
+    "Subject": "Health",
+    "Type": "Journal",
+    "CallNumber": "610.5 SAM",
+    "Status": "Reference only",
+    "OnlineCopy": ""
+  },
+  {
+    "ID": "L0010",
+    "Title": "SAMPLE – Te-Kiribati – English Dictionary",
+    "Author": "Sample Author H",
+    "Year": "2010",
+    "Subject": "Language",
+    "Type": "Book",
+    "CallNumber": "499.5 SAM-D",
+    "Status": "Reference only",
+    "OnlineCopy": ""
+  },
+  {
+    "ID": "L0011",
+    "Title": "SAMPLE – Mathematics for Junior Secondary",
+    "Author": "Sample Author I",
+    "Year": "2018",
+    "Subject": "Education",
+    "Type": "Textbook",
+    "CallNumber": "510 SAM",
+    "Status": "Available",
+    "OnlineCopy": ""
+  },
+  {
+    "ID": "L0012",
+    "Title": "SAMPLE – Songs and Dances of Kiribati",
+    "Author": "Sample Author J",
+    "Year": "2008",
+    "Subject": "Culture & Heritage",
+    "Type": "Book",
+    "CallNumber": "781.6 SAM",
+    "Status": "Available",
+    "OnlineCopy": ""
+  }
+]

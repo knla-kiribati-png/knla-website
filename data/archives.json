@@ -1,0 +1,79 @@
+[
+  {
+    "RefNo": "SAMPLE/GOV/001",
+    "Title": "Sample: Colonial administration correspondence",
+    "Creator": "Sample Government Office",
+    "DateRange": "1950–1959",
+    "Series": "Government Records",
+    "Format": "Paper files",
+    "Extent": "3 boxes",
+    "Access": "Restricted",
+    "Description": "Sample description of correspondence files. Replace with real metadata."
+  },
+  {
+    "RefNo": "SAMPLE/GOV/002",
+    "Title": "Sample: Island council minutes",
+    "Creator": "Sample Island Council",
+    "DateRange": "1965–1978",
+    "Series": "Government Records",
+    "Format": "Paper files",
+    "Extent": "5 volumes",
+    "Access": "Open",
+    "Description": "Sample description of council minutes."
+  },
+  {
+    "RefNo": "SAMPLE/PHO/001",
+    "Title": "Sample: Photographs of South Tarawa",
+    "Creator": "Sample Photographer",
+    "DateRange": "1970–1985",
+    "Series": "Photographs",
+    "Format": "Photographs",
+    "Extent": "120 items",
+    "Access": "Open",
+    "Description": "Sample photograph collection description."
+  },
+  {
+    "RefNo": "SAMPLE/MAP/001",
+    "Title": "Sample: Survey maps of the Gilbert Islands",
+    "Creator": "Sample Survey Department",
+    "DateRange": "1940–1960",
+    "Series": "Maps & Plans",
+    "Format": "Maps",
+    "Extent": "40 sheets",
+    "Access": "Open",
+    "Description": "Sample map collection description."
+  },
+  {
+    "RefNo": "SAMPLE/LND/001",
+    "Title": "Sample: Land records",
+    "Creator": "Sample Lands Office",
+    "DateRange": "1930–1980",
+    "Series": "Land Records",
+    "Format": "Registers",
+    "Extent": "12 volumes",
+    "Access": "Restricted",
+    "Description": "Sample land register description. Access by approval only."
+  },
+  {
+    "RefNo": "SAMPLE/EDU/001",
+    "Title": "Sample: School inspection reports",
+    "Creator": "Sample Education Department",
+    "DateRange": "1960–1979",
+    "Series": "Education Records",
+    "Format": "Paper files",
+    "Extent": "2 boxes",
+    "Access": "Open",
+    "Description": "Sample description of school inspection reports."
+  },
+  {
+    "RefNo": "SAMPLE/AUD/001",
+    "Title": "Sample: Oral history recordings",
+    "Creator": "Sample Oral History Project",
+    "DateRange": "1990–2000",
+    "Series": "Audio-Visual",
+    "Format": "Audio cassettes",
+    "Extent": "30 tapes",
+    "Access": "Restricted",
+    "Description": "Sample oral history collection description."
+  }
+]

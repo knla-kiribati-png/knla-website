@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archives – Kiribati National Library and Archives</title>
+  <meta name="description" content="Search the Kiribati National Archives catalogue, access rules, fees and access requests.">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../">Kiribati National Library and Archives<small>Ministry of Education</small></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../">Home</a>
+        <a href="../library/">Library</a>
+        <a href="./" aria-current="page">Archives</a>
+        <a href="../#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero small">
+    <div class="wrap">
+      <h1>National Archives</h1>
+      <p>Government records, historical documents, photographs and maps of Kiribati.</p>
+    </div>
+  </div>
+
+  <nav class="subnav" aria-label="On this page">
+    <div class="wrap">
+      <a href="#search">Archives search</a>
+      <a href="#rules">Access rules &amp; fees</a>
+      <a href="#requests">Access requests</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ARCHIVES SEARCH + CATALOGUE + METADATA -->
+    <section id="search">
+      <div class="wrap" id="archives-search">
+        <h2>Search the archives</h2>
+        <p class="lead">Search by title, reference number, creator, series or date. Records marked <em>Restricted</em> need an approved access request before viewing.</p>
+        <div class="search-bar">
+          <input type="search" data-search placeholder="Search title, reference no., creator, year…" aria-label="Search the archives">
+          <select data-filter aria-label="Filter by series"></select>
+        </div>
+        <p class="result-count" data-count></p>
+        <div class="results" data-results></div>
+      </div>
+    </section>
+
+    <!-- ADMIN: RULES & COSTS -->
+    <section id="rules">
+      <div class="wrap">
+        <h2>Access rules and fees</h2>
+        <div class="grid two">
+          <div class="card">
+            <h3>Rules for using the archives</h3>
+            <ul>
+              <li><span class="edit">[EDIT]</span> Records are viewed in the reading room only.</li>
+              <li><span class="edit">[EDIT]</span> Bring photo ID on your visit.</li>
+              <li><span class="edit">[EDIT]</span> Pencils only; no pens near original records.</li>
+              <li><span class="edit">[EDIT]</span> Restricted records need written approval.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Reading room hours</h3>
+            <p><span class="edit">[EDIT]</span> Monday – Friday: 9:00 am – 3:30 pm<br>
+               <span class="edit">[EDIT]</span> Appointments recommended</p>
+          </div>
+        </div>
+        <h3 style="margin-top:24px">Fees</h3>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>Service</th><th>Fee (AUD)</th><th>Notes</th></tr></thead>
+            <tbody>
+              <tr><td>Research access – local</td><td><span class="edit">[EDIT]</span></td><td></td></tr>
+              <tr><td>Research access – overseas researcher</td><td><span class="edit">[EDIT]</span></td><td></td></tr>
+              <tr><td>Digital copy / scan (per page)</td><td><span class="edit">[EDIT]</span></td><td></td></tr>
+              <tr><td>Certified copy</td><td><span class="edit">[EDIT]</span></td><td></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCESS REQUEST FORM (stage 3) -->
+    <section id="requests">
+      <div class="wrap">
+        <h2>Access requests</h2>
+        <div class="card">
+          <p>To view or copy archive records:</p>
+          <ol>
+            <li>Note the reference numbers of the records you need from the search above.</li>
+            <li>Submit an access request.</li>
+            <li>Pay the access fee.</li>
+            <li>Receive your receipt by email.</li>
+            <li>Receive approval to access the records.</li>
+          </ol>
+          <p class="notice">Online access requests are coming soon. For now, please contact the Archives directly.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© Kiribati National Library and Archives, Ministry of Education</span>
+      <span><a href="../">Home</a> · <a href="../library/">Library</a></span>
+    </div>
+  </footer>
+
+  <script src="../assets/config.js"></script>
+  <script src="../assets/search.js"></script>
+  <script>
+    KNLA.initSearch({
+      root: document.getElementById("archives-search"),
+      table: "Archives",
+      fallback: "../data/archives.json",
+      idField: "RefNo",
+      searchFields: ["RefNo", "Title", "Creator", "DateRange", "Series", "Description", "Format"],
+      filterField: "Series",
+      filterLabel: "series",
+      renderItem: function (r, h) {
+        var open = String(r.Access).toLowerCase() === "open";
+        return '<article class="result">' +
+          '<h3>' + h.esc(r.Title) + '</h3>' +
+          '<span class="badge ' + (open ? "ok" : "warn") + '">' + h.esc(r.Access) + '</span>' +
+          '<div class="meta">Ref. ' + h.esc(r.RefNo) + " · " + h.esc(r.DateRange) + " · " + h.esc(r.Format) + '</div>' +
+          '<p class="desc">' + h.esc(r.Description) + '</p>' +
+          '<div class="actions">' +
+            '<span class="meta">Creator: ' + h.esc(r.Creator) + '</span>' +
+            '<span class="meta">Series: ' + h.esc(r.Series) + '</span>' +
+            '<span class="meta">Extent: ' + h.esc(r.Extent) + '</span>' +
+          '</div>' +
+        '</article>';
+      }
+    });
+  </script>
+</body>
+</html>
