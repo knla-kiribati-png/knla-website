@@ -9,5 +9,5 @@
 // =============================================================
 
 window.KNLA_CONFIG = {
-  API_URL: ""
+  API_URL: "https://script.google.com/macros/s/AKfycbxl9OsjGxQ_6kSkqOZLbdHLlLkvlfqsunavTOMlFPZ82jQBrpYcE-ESqAGKKCah5X66/exec"
 };
